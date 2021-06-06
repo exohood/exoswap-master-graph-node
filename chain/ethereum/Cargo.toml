@@ -1,0 +1,26 @@
+[package]
+name = "graph-chain-ethereum"
+version = "0.22.0"
+edition = "2018"
+
+[dependencies]
+chrono = "0.4"
+futures = "0.1.21"
+http = "0.1.21" # must be compatible with the version rust-web3 uses
+jsonrpc-core = "14.2.0"
+graph = { path = "../../graph" }
+lazy_static = "1.2.0"
+state_machine_future = "0.2"
+serde = "1.0"
+config = { version = "0.11", features = ["toml"], default-features = false }
+dirs-next = "2.0"
+anyhow = "1.0"
+fail = "0.4"
+
+[dev-dependencies]
+diesel = { version = "1.4.6", features = ["postgres", "serde_json", "numeric", "r2d2"] }
+mockall = "0.8.3"
+graph-core = { path = "../../core" }
+graph-store-postgres = { path = "../../store/postgres" }
+pretty_assertions = "0.7.2"
+test-store = { path = "../../store/test-store" }

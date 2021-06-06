@@ -1,0 +1,24 @@
+[workspace]
+members = [
+    "core",
+    "chain/ethereum",
+    "chain/arweave",
+    "graphql",
+    "mock",
+    "node",
+    "runtime/wasm",
+    "runtime/derive",
+    "server/http",
+    "server/json-rpc",
+    "server/index-node",
+    "server/metrics",
+    "store/postgres",
+    "store/test-store",
+    "graph",
+    "tests",
+]
+
+
+[patch.crates-io]
+# Include protection against stack overflow when parsing from this PR: https://github.com/graphql-rust/graphql-parser/commit/45167b53e9533c331298683577ba8df7e43480ac
+graphql-parser = {git="https://github.com/graphql-rust/graphql-parser", commit="45167b53e9533c331298683577ba8df7e43480ac"}
