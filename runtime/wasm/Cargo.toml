@@ -1,0 +1,31 @@
+[package]
+name = "graph-runtime-wasm"
+version = "0.22.0"
+edition = "2018"
+
+[dependencies]
+async-trait = "0.1.50"
+atomic_refcell = "0.1.7"
+ethabi = { git = "https://github.com/graphprotocol/ethabi.git", branch = "master" }
+futures = "0.1.21"
+hex = "0.4.3"
+graph = { path = "../../graph" }
+graph-graphql = { path = "../../graphql" }
+bs58 = "0.4.0"
+graph-runtime-derive = { path = "../derive" }
+semver = "0.10.0"
+lazy_static = "1.4"
+uuid = { version = "0.8.1", features = ["v4"] }
+strum = "0.20.0"
+strum_macros = "0.20.1"
+anyhow = "1.0"
+wasmtime = "0.26.0"
+defer = "0.1"
+never = "0.1"
+
+[dev-dependencies]
+graphql-parser = "0.3"
+graph-core = { path = "../../core" }
+graph-mock = { path = "../../mock" }
+test-store = { path = "../../store/test-store" }
+graph-chain-arweave = { path = "../../chain/arweave" }
