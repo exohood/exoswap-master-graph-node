@@ -40,7 +40,7 @@ structopt = { version = "0.3.20", features = ["wrap_help"] }
 toml = "0.5.7"
 shellexpand = "2.1.0"
 diesel = "1.4.6"
-fail = "0.4"
+fail = "0.5"
 
 [dev-dependencies]
 assert_cli = "0.6"

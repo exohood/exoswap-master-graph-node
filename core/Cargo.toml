@@ -16,7 +16,7 @@ semver = "0.10.0"
 serde = "1.0"
 serde_json = "1.0"
 serde_yaml = "0.8"
-fail = "0.4"
+fail = "0.5"
 
 [dev-dependencies]
 graph-mock = { path = "../mock" }
