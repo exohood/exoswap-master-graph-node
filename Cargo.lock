@@ -1821,7 +1821,7 @@ dependencies = [
  "strum",
  "strum_macros",
  "test-store",
- "uuid 0.8.1",
+ "uuid 1.1.2",
  "wasmtime",
 ]
 
@@ -1921,7 +1921,7 @@ dependencies = [
  "serde",
  "stable-hash",
  "test-store",
- "uuid 0.8.1",
+ "uuid 1.1.2",
 ]
 
 [[package]]
@@ -5237,11 +5237,11 @@ dependencies = [
 
 [[package]]
 name = "uuid"
-version = "0.8.1"
+version = "1.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9fde2f6a4bea1d6e007c4ad38c6839fa71cbb63b6dbf5b595aa38dc9b1093c11"
+checksum = "dd6469f4314d5f1ffec476e05f17cc9a78bc7a27a6a857842170bdf8d6f98d2f"
 dependencies = [
- "rand 0.7.3",
+ "getrandom 0.2.2",
 ]
 
 [[package]]
