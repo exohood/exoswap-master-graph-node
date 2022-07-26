@@ -1289,9 +1289,9 @@ dependencies = [
 
 [[package]]
 name = "firestorm"
-version = "0.4.6"
+version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "31586bda1b136406162e381a3185a506cdfc1631708dd40cba2f6628d8634499"
+checksum = "2c5f6c2c942da57e2aaaa84b8a521489486f14e75e7fa91dab70aba913975f98"
 
 [[package]]
 name = "fixed-hash"
@@ -4293,8 +4293,8 @@ dependencies = [
 
 [[package]]
 name = "stable-hash"
-version = "0.3.1"
-source = "git+https://github.com/graphprotocol/stable-hash#752463958b369506845e89da8b831430146c61d1"
+version = "0.4.2"
+source = "git+https://github.com/graphprotocol/stable-hash#7a3a2969e05a3e373dd53ec41786ad52b3887d17"
 dependencies = [
  "blake3 0.3.8",
  "firestorm",
@@ -4302,6 +4302,7 @@ dependencies = [
  "lazy_static",
  "leb128",
  "num-traits",
+ "xxhash-rust",
 ]
 
 [[package]]
@@ -5816,6 +5817,12 @@ dependencies = [
  "winapi 0.2.8",
  "winapi-build",
 ]
+
+[[package]]
+name = "xxhash-rust"
+version = "0.8.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "074914ea4eec286eb8d1fd745768504f420a1f7b7919185682a4a267bed7d2e7"
 
 [[package]]
 name = "yaml-rust"
