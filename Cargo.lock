@@ -3982,16 +3982,16 @@ dependencies = [
 
 [[package]]
 name = "secp256k1"
-version = "0.20.1"
-source = "git+https://github.com/rust-bitcoin/rust-secp256k1#4ae0e7ebd1c01f686e0ee5bf31f184b418929cf8"
+version = "0.24.0"
+source = "git+https://github.com/rust-bitcoin/rust-secp256k1#7fde3325075f16ec4b8c2c624fee523cc5225047"
 dependencies = [
  "secp256k1-sys",
 ]
 
 [[package]]
 name = "secp256k1-sys"
-version = "0.4.0"
-source = "git+https://github.com/rust-bitcoin/rust-secp256k1#4ae0e7ebd1c01f686e0ee5bf31f184b418929cf8"
+version = "0.6.0"
+source = "git+https://github.com/rust-bitcoin/rust-secp256k1#7fde3325075f16ec4b8c2c624fee523cc5225047"
 dependencies = [
  "cc",
 ]
@@ -5669,7 +5669,7 @@ dependencies = [
 [[package]]
 name = "web3"
 version = "0.10.0-graph"
-source = "git+https://github.com/graphprotocol/rust-web3?branch=master#2ffcc3adb208d8be0e078601b8ded9e5c6290843"
+source = "git+https://github.com/graphprotocol/rust-web3?branch=master#585c9db21576fd9aace40607b764ec870a5faebb"
 dependencies = [
  "arrayvec 0.5.2",
  "base64 0.12.3",
