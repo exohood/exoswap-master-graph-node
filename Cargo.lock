@@ -659,7 +659,7 @@ dependencies = [
  "serde",
  "smallvec 1.6.1",
  "thiserror",
- "wasmparser",
+ "wasmparser 0.78.2",
 ]
 
 [[package]]
@@ -1653,7 +1653,7 @@ dependencies = [
  "tokio-retry",
  "tokio-stream",
  "url 2.2.2",
- "wasmparser",
+ "wasmparser 0.88.0",
  "web3",
 ]
 
@@ -5422,6 +5422,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "52144d4c78e5cf8b055ceab8e5fa22814ce4315d6002ad32cfd914f37c12fd65"
 
 [[package]]
+name = "wasmparser"
+version = "0.88.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fb8cf7dd82407fe68161bedcd57fde15596f32ebf6e9b3bdbf3ae1da20e38e5e"
+dependencies = [
+ "indexmap",
+]
+
+[[package]]
 name = "wasmtime"
 version = "0.27.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -5443,7 +5452,7 @@ dependencies = [
  "serde",
  "smallvec 1.6.1",
  "target-lexicon",
- "wasmparser",
+ "wasmparser 0.78.2",
  "wasmtime-cache",
  "wasmtime-environ",
  "wasmtime-fiber",
@@ -5486,7 +5495,7 @@ dependencies = [
  "cranelift-frontend",
  "cranelift-wasm",
  "target-lexicon",
- "wasmparser",
+ "wasmparser 0.78.2",
  "wasmtime-environ",
 ]
 
@@ -5502,7 +5511,7 @@ dependencies = [
  "object 0.24.0",
  "target-lexicon",
  "thiserror",
- "wasmparser",
+ "wasmparser 0.78.2",
  "wasmtime-environ",
 ]
 
@@ -5522,7 +5531,7 @@ dependencies = [
  "more-asserts",
  "serde",
  "thiserror",
- "wasmparser",
+ "wasmparser 0.78.2",
 ]
 
 [[package]]
@@ -5559,7 +5568,7 @@ dependencies = [
  "serde",
  "target-lexicon",
  "thiserror",
- "wasmparser",
+ "wasmparser 0.78.2",
  "wasmtime-cranelift",
  "wasmtime-debug",
  "wasmtime-environ",
