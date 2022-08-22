@@ -53,7 +53,7 @@ url = "2.2.2"
 prometheus = "0.13.1"
 priority-queue = "1.0.4"
 futures03 = { version = "0.3.1", package = "futures", features = ["compat"] }
-wasmparser = "0.88.0"
+wasmparser = "0.89.1"
 thiserror = "1.0.24"
 parking_lot = "0.12.1"
 
