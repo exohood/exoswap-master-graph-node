@@ -22,5 +22,5 @@ diesel = { version = "1.4.8", features = ["postgres", "serde_json", "numeric", "
 mockall = "0.11.2"
 graph-core = { path = "../../core" }
 graph-store-postgres = { path = "../../store/postgres" }
-pretty_assertions = "1.2.1"
+pretty_assertions = "1.3.0"
 test-store = { path = "../../store/test-store" }
