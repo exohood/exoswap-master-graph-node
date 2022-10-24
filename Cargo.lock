@@ -4352,7 +4352,7 @@ dependencies = [
 [[package]]
 name = "stable-hash"
 version = "0.4.2"
-source = "git+https://github.com/graphprotocol/stable-hash#7a3a2969e05a3e373dd53ec41786ad52b3887d17"
+source = "git+https://github.com/graphprotocol/stable-hash#dc6ef2f170b4fb00792a0c777ad3f69eaedfcb3a"
 dependencies = [
  "blake3 0.3.8",
  "firestorm",
@@ -4360,6 +4360,7 @@ dependencies = [
  "lazy_static",
  "leb128",
  "num-traits",
+ "uint",
  "xxhash-rust",
 ]
 
