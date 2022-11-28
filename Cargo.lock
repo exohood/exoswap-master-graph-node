@@ -4351,8 +4351,8 @@ dependencies = [
 
 [[package]]
 name = "stable-hash"
-version = "0.4.2"
-source = "git+https://github.com/graphprotocol/stable-hash#dc6ef2f170b4fb00792a0c777ad3f69eaedfcb3a"
+version = "0.4.3"
+source = "git+https://github.com/graphprotocol/stable-hash#274bd3606c477192620c63330598993bc2e25ebd"
 dependencies = [
  "blake3 0.3.8",
  "firestorm",
