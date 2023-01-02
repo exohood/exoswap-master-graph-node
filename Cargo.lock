@@ -1611,9 +1611,9 @@ dependencies = [
 
 [[package]]
 name = "git-testament"
-version = "0.2.1"
+version = "0.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "080c47ef3c243fb13474429c14dce386021cd64de731c353998a745c2fa2435b"
+checksum = "2bddca8182c031676362c5ceb276478870044cd714da27a0637aaa143994ad74"
 dependencies = [
  "git-testament-derive",
  "no-std-compat",
@@ -1621,9 +1621,9 @@ dependencies = [
 
 [[package]]
 name = "git-testament-derive"
-version = "0.1.13"
+version = "0.1.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c0803898541a48d6f0809fa681bc8d38603f727d191f179631d85ddc3b6a9a2c"
+checksum = "4a782db5866c7ab75f3552dda4cbf34e3e257cc64c963c6ed5af1e12818e8ae6"
 dependencies = [
  "log 0.4.11",
  "proc-macro2 1.0.40",
