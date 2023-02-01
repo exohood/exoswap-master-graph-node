@@ -39,7 +39,7 @@ serde_regex = "1.1.0"
 structopt = { version = "0.3.26", features = ["wrap_help"] }
 toml = "0.7.0"
 shellexpand = "2.1.0"
-diesel = "2.0.2"
+diesel = "2.0.3"
 fail = "0.5"
 
 [dev-dependencies]
