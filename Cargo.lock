@@ -1676,7 +1676,7 @@ dependencies = [
  "tokio-retry",
  "tokio-stream",
  "url 2.3.1",
- "wasmparser 0.99.0",
+ "wasmparser 0.100.0",
  "web3",
 ]
 
@@ -5530,9 +5530,9 @@ checksum = "52144d4c78e5cf8b055ceab8e5fa22814ce4315d6002ad32cfd914f37c12fd65"
 
 [[package]]
 name = "wasmparser"
-version = "0.99.0"
+version = "0.100.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9ef3b717afc67f848f412d4f02c127dd3e35a0eecd58c684580414df4fde01d3"
+checksum = "64b20236ab624147dfbb62cf12a19aaf66af0e41b8398838b66e997d07d269d4"
 dependencies = [
  "indexmap",
  "url 2.3.1",
