@@ -1638,7 +1638,6 @@ dependencies = [
  "diesel 2.0.3",
  "diesel_derives 2.0.1",
  "ethabi 12.0.0-graph",
- "futures 0.1.31",
  "futures 0.3.13",
  "graphql-parser",
  "hex",
@@ -1698,7 +1697,7 @@ dependencies = [
  "diesel 2.0.3",
  "dirs-next",
  "fail",
- "futures 0.1.31",
+ "futures 0.3.13",
  "graph",
  "graph-core",
  "graph-store-postgres",
@@ -1762,7 +1761,7 @@ dependencies = [
 name = "graph-mock"
 version = "0.22.0"
 dependencies = [
- "futures 0.1.31",
+ "futures 0.3.13",
  "graph",
  "graph-graphql",
  "graphql-parser",
@@ -1823,7 +1822,7 @@ dependencies = [
  "bs58",
  "defer",
  "ethabi 12.0.0-graph",
- "futures 0.1.31",
+ "futures 0.3.13",
  "graph",
  "graph-chain-arweave",
  "graph-core",
@@ -1846,7 +1845,7 @@ dependencies = [
 name = "graph-server-http"
 version = "0.22.0"
 dependencies = [
- "futures 0.1.31",
+ "futures 0.3.13",
  "graph",
  "graph-graphql",
  "graph-mock",
@@ -1883,7 +1882,7 @@ dependencies = [
 name = "graph-server-metrics"
 version = "0.22.0"
 dependencies = [
- "futures 0.1.31",
+ "futures 0.3.13",
  "graph",
  "http 0.2.3",
  "hyper 0.13.10",
@@ -1922,7 +1921,7 @@ dependencies = [
  "diesel-dynamic-schema",
  "diesel_migrations",
  "fallible-iterator",
- "futures 0.1.31",
+ "futures 0.3.13",
  "graph",
  "graph-chain-ethereum",
  "graph-graphql",
