@@ -713,7 +713,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2801af0d36612ae591caa9568261fddce32ce6e08a7275ea334a06a4ad021a2c"
 dependencies = [
  "cfg-if 1.0.0",
- "crossbeam-channel 0.5.6",
+ "crossbeam-channel 0.5.7",
  "crossbeam-deque 0.8.0",
  "crossbeam-epoch 0.9.10",
  "crossbeam-queue 0.3.6",
@@ -732,9 +732,9 @@ dependencies = [
 
 [[package]]
 name = "crossbeam-channel"
-version = "0.5.6"
+version = "0.5.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c2dd04ddaf88237dc3b8d8f9a3c1004b506b54b3313403944054d23c0870c521"
+checksum = "cf2b3e8478797446514c91ef04bafcb59faba183e621ad488df88983cc14128c"
 dependencies = [
  "cfg-if 1.0.0",
  "crossbeam-utils 0.8.11",
@@ -1775,7 +1775,7 @@ version = "0.22.0"
 dependencies = [
  "assert_cli",
  "clap 4.0.26",
- "crossbeam-channel 0.5.6",
+ "crossbeam-channel 0.5.7",
  "diesel 2.0.3",
  "env_logger 0.9.3",
  "fail",
@@ -3756,7 +3756,7 @@ version = "1.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9ab346ac5921dc62ffa9f89b7a773907511cdfa5490c572ae9be1be33e8afa4a"
 dependencies = [
- "crossbeam-channel 0.5.6",
+ "crossbeam-channel 0.5.7",
  "crossbeam-deque 0.8.0",
  "crossbeam-utils 0.8.11",
  "lazy_static",
