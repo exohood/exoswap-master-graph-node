@@ -1912,7 +1912,7 @@ dependencies = [
  "futures 0.1.31",
  "graph",
  "graphql-parser",
- "indexmap 1.9.3",
+ "indexmap 2.0.0",
  "lazy_static",
  "once_cell",
  "parking_lot 0.12.1",
