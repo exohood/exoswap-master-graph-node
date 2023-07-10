@@ -265,6 +265,18 @@ dependencies = [
  "num-bigint 0.4.3",
  "num-integer",
  "num-traits",
+]
+
+[[package]]
+name = "bigdecimal"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5274a6b6e0ee020148397245b973e30163b7bffbc6d473613f850cb99888581e"
+dependencies = [
+ "libm",
+ "num-bigint 0.4.3",
+ "num-integer",
+ "num-traits",
  "serde",
 ]
 
@@ -1082,7 +1094,7 @@ version = "2.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "72eb77396836a4505da85bae0712fa324b74acfe1876d7c2f7e694ef3d0ee373"
 dependencies = [
- "bigdecimal",
+ "bigdecimal 0.3.1",
  "bitflags 1.2.1",
  "byteorder",
  "chrono",
@@ -1795,7 +1807,7 @@ dependencies = [
  "anyhow",
  "async-trait",
  "atomic_refcell",
- "bigdecimal",
+ "bigdecimal 0.4.0",
  "bytes 0.5.6",
  "chrono",
  "diesel 2.0.4",
@@ -2769,6 +2781,12 @@ name = "libc"
 version = "0.2.140"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "99227334921fae1a979cf0bfdfcc6b3e5ce376ef57e16fb6fb3ea2ed6095f80c"
+
+[[package]]
+name = "libm"
+version = "0.2.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f7012b1bbb0719e1097c47611d3898568c546d597c2e74d66f6087edd5233ff4"
 
 [[package]]
 name = "link-cplusplus"
