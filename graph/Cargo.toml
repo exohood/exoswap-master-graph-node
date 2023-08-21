@@ -6,7 +6,7 @@ edition = "2018"
 [dependencies]
 anyhow = "1.0"
 async-trait = "0.1.50"
-atomic_refcell = "0.1.10"
+atomic_refcell = "0.1.11"
 bigdecimal = { version = "0.4.1", features = ["serde"] }
 bytes = "0.5"
 diesel = { version = "2.0.4", features = ["postgres", "serde_json", "numeric", "r2d2", "chrono"] }
