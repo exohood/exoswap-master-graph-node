@@ -417,7 +417,7 @@ dependencies = [
  "thiserror",
  "tokio 1.19.2",
  "tokio-util 0.7.3",
- "url 2.4.0",
+ "url 2.4.1",
  "winapi 0.3.9",
 ]
 
@@ -1840,7 +1840,7 @@ dependencies = [
  "tokio 0.2.25",
  "tokio-retry",
  "tokio-stream",
- "url 2.4.0",
+ "url 2.4.1",
  "wasmparser 0.111.0",
  "web3",
 ]
@@ -1967,7 +1967,7 @@ dependencies = [
  "shellexpand",
  "structopt",
  "toml 0.7.6",
- "url 2.4.0",
+ "url 2.4.1",
 ]
 
 [[package]]
@@ -4102,7 +4102,7 @@ dependencies = [
  "serde_urlencoded",
  "tokio 0.2.25",
  "tokio-tls 0.3.1",
- "url 2.4.0",
+ "url 2.4.1",
  "wasm-bindgen",
  "wasm-bindgen-futures",
  "web-sys",
@@ -5468,7 +5468,7 @@ dependencies = [
  "log 0.4.11",
  "rand 0.7.3",
  "sha-1",
- "url 2.4.0",
+ "url 2.4.1",
  "utf-8",
 ]
 
@@ -5587,9 +5587,9 @@ dependencies = [
 
 [[package]]
 name = "url"
-version = "2.4.0"
+version = "2.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "50bff7831e19200a85b17131d085c25d7811bc4e186efdaf54bbd132994a88cb"
+checksum = "143b538f18257fac9cad154828a57c6bf5157e1aa604d4816b5995bf6de87ae5"
 dependencies = [
  "form_urlencoded",
  "idna 0.4.0",
@@ -6050,7 +6050,7 @@ dependencies = [
  "tokio-io",
  "tokio-timer 0.1.2",
  "tokio-uds 0.1.7",
- "url 2.4.0",
+ "url 2.4.1",
  "websocket",
  "zeroize",
 ]
