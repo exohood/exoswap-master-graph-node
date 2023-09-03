@@ -258,17 +258,6 @@ checksum = "a4a4ddaa51a5bc52a6948f74c06d20aaaddb71924eab79b8c97a8c556e942d6a"
 
 [[package]]
 name = "bigdecimal"
-version = "0.3.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a6773ddc0eafc0e509fb60e48dff7f450f8e674a0686ae8605e8d9901bd5eefa"
-dependencies = [
- "num-bigint 0.4.3",
- "num-integer",
- "num-traits",
-]
-
-[[package]]
-name = "bigdecimal"
 version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "454bca3db10617b88b566f205ed190aedb0e0e6dd4cad61d3988a72e8c5594cb"
@@ -302,6 +291,12 @@ name = "bitflags"
 version = "1.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cf1de2fe8c75bc145a2f577add951f8134889b4795d47466a54a5c846d691693"
+
+[[package]]
+name = "bitflags"
+version = "2.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b4682ae6287fcf752ecaabbfcc7b6f9b72aa33933dc23a554d853aea8eea8635"
 
 [[package]]
 name = "bitvec"
@@ -1081,15 +1076,15 @@ dependencies = [
 
 [[package]]
 name = "diesel"
-version = "2.0.4"
+version = "2.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "72eb77396836a4505da85bae0712fa324b74acfe1876d7c2f7e694ef3d0ee373"
+checksum = "d98235fdc2f355d330a8244184ab6b4b33c28679c0b4158f63138e51d6cf7e88"
 dependencies = [
- "bigdecimal 0.3.1",
- "bitflags 1.2.1",
+ "bigdecimal",
+ "bitflags 2.4.0",
  "byteorder",
  "chrono",
- "diesel_derives 2.0.2",
+ "diesel_derives 2.1.1",
  "itoa 1.0.2",
  "num-bigint 0.4.3",
  "num-integer",
@@ -1132,25 +1127,34 @@ dependencies = [
 
 [[package]]
 name = "diesel_derives"
-version = "2.0.2"
+version = "2.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0ad74fdcf086be3d4fdd142f67937678fe60ed431c3b2f08599e7687269410c4"
+checksum = "e054665eaf6d97d1e7125512bb2d35d07c73ac86cc6920174cb42d1ab697a554"
 dependencies = [
- "proc-macro-error",
+ "diesel_table_macro_syntax",
  "proc-macro2 1.0.66",
  "quote 1.0.33",
- "syn 1.0.107",
+ "syn 2.0.29",
 ]
 
 [[package]]
 name = "diesel_migrations"
-version = "2.0.0"
+version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e9ae22beef5e9d6fab9225ddb073c1c6c1a7a6ded5019d5da11d1e5c5adc34e2"
+checksum = "6036b3f0120c5961381b570ee20a02432d7e2d27ea60de9578799cf9156914ac"
 dependencies = [
- "diesel 2.0.4",
+ "diesel 2.1.1",
  "migrations_internals",
  "migrations_macros",
+]
+
+[[package]]
+name = "diesel_table_macro_syntax"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fc5557efc453706fed5e4fa85006fe9817c224c3f480a34c7e5959fd700921c5"
+dependencies = [
+ "syn 2.0.29",
 ]
 
 [[package]]
@@ -1798,11 +1802,11 @@ dependencies = [
  "anyhow",
  "async-trait",
  "atomic_refcell",
- "bigdecimal 0.4.1",
+ "bigdecimal",
  "bytes 0.5.6",
  "chrono",
- "diesel 2.0.4",
- "diesel_derives 2.0.2",
+ "diesel 2.1.1",
+ "diesel_derives 2.1.1",
  "ethabi 12.0.0-graph",
  "futures 0.3.13",
  "graphql-parser",
@@ -1860,7 +1864,7 @@ dependencies = [
  "anyhow",
  "chrono",
  "config",
- "diesel 2.0.4",
+ "diesel 2.1.1",
  "dirs-next",
  "fail",
  "futures 0.3.13",
@@ -1942,7 +1946,7 @@ dependencies = [
  "assert_cli",
  "clap 4.3.23",
  "crossbeam-channel 0.5.8",
- "diesel 2.0.4",
+ "diesel 2.1.1",
  "env_logger 0.10.0",
  "fail",
  "futures 0.3.13",
@@ -2082,7 +2086,7 @@ dependencies = [
  "blake3 1.4.1",
  "clap 4.3.23",
  "derive_more",
- "diesel 2.0.4",
+ "diesel 2.1.1",
  "diesel-derive-enum",
  "diesel-dynamic-schema",
  "diesel_migrations",
@@ -2907,19 +2911,19 @@ dependencies = [
 
 [[package]]
 name = "migrations_internals"
-version = "2.0.0"
+version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c493c09323068c01e54c685f7da41a9ccf9219735c3766fbfd6099806ea08fbc"
+checksum = "0f23f71580015254b020e856feac3df5878c2c7a8812297edd6c0a485ac9dada"
 dependencies = [
  "serde",
- "toml 0.5.11",
+ "toml 0.7.6",
 ]
 
 [[package]]
 name = "migrations_macros"
-version = "2.0.0"
+version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8a8ff27a350511de30cdabb77147501c36ef02e0451d957abea2f30caffb2b58"
+checksum = "cce3325ac70e67bbab5bd837a31cae01f1a6db64e0e744a33cb03a543469ef08"
 dependencies = [
  "migrations_internals",
  "proc-macro2 1.0.66",
@@ -4819,7 +4823,7 @@ dependencies = [
 name = "test-store"
 version = "0.22.0"
 dependencies = [
- "diesel 2.0.4",
+ "diesel 2.1.1",
  "graph",
  "graph-graphql",
  "graph-mock",
