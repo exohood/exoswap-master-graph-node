@@ -20,7 +20,7 @@ fail = "0.5"
 
 [dev-dependencies]
 graph-mock = { path = "../mock" }
-walkdir = "2.3.3"
+walkdir = "2.4.0"
 test-store = { path = "../store/test-store" }
 hex = "0.4.3"
 graphql-parser = "0.3"
