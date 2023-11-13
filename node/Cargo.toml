@@ -14,7 +14,7 @@ path = "src/bin/manager.rs"
 
 [dependencies]
 clap = "4.4.8"
-env_logger = "0.10.0"
+env_logger = "0.10.1"
 git-testament = "0.2"
 graphql-parser = "0.3"
 futures = { version = "0.3.13", features = ["compat"] }
