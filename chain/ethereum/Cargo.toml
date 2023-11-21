@@ -18,7 +18,7 @@ anyhow = "1.0"
 fail = "0.5"
 
 [dev-dependencies]
-diesel = { version = "2.1.3", features = ["postgres", "serde_json", "numeric", "r2d2"] }
+diesel = { version = "2.1.4", features = ["postgres", "serde_json", "numeric", "r2d2"] }
 mockall = "0.11.4"
 graph-core = { path = "../../core" }
 graph-store-postgres = { path = "../../store/postgres" }
