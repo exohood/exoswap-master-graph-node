@@ -20,7 +20,7 @@ graphql-parser = "0.3"
 futures = { version = "0.3.13", features = ["compat"] }
 lazy_static = "1.2.0"
 url = "2.5.0"
-crossbeam-channel = "0.5.8"
+crossbeam-channel = "0.5.9"
 graph = { path = "../graph" }
 graph-core = { path = "../core" }
 graph-chain-ethereum = { path = "../chain/ethereum" }
