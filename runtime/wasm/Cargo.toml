@@ -20,7 +20,7 @@ strum = "0.25.0"
 strum_macros = "0.25.3"
 anyhow = "1.0"
 wasmtime = "0.28.0"
-defer = "0.1"
+defer = "0.2"
 never = "0.1"
 
 [dev-dependencies]
