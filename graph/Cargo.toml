@@ -30,7 +30,7 @@ lazy_static = "1.4.0"
 mockall = "0.12.1"
 num-bigint = { version = "^0.2.6", features = ["serde"] }
 num_cpus = "1.16.0"
-num-traits = "0.2.17"
+num-traits = "0.2.18"
 rand = "0.6.1"
 semver = "1.0.21"
 serde = { version = "1.0.125", features = ["rc"] }
