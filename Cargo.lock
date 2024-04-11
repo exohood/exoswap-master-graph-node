@@ -1810,7 +1810,7 @@ dependencies = [
  "graph",
  "graph-core",
  "graph-store-postgres",
- "http 0.1.21",
+ "http 0.2.3",
  "jsonrpc-core 18.0.0",
  "lazy_static",
  "mockall",
