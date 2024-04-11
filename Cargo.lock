@@ -1960,7 +1960,7 @@ dependencies = [
  "graph-mock",
  "graphql-parser",
  "http 0.2.3",
- "hyper 0.13.10",
+ "hyper 0.14.5",
  "serde",
 ]
 
@@ -1973,7 +1973,7 @@ dependencies = [
  "graph-graphql",
  "graphql-parser",
  "http 0.2.3",
- "hyper 0.13.10",
+ "hyper 0.14.5",
  "serde",
 ]
 
@@ -1994,7 +1994,7 @@ dependencies = [
  "futures 0.3.13",
  "graph",
  "http 0.2.3",
- "hyper 0.13.10",
+ "hyper 0.14.5",
  "lazy_static",
  "serde",
 ]
