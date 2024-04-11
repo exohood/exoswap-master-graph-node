@@ -31,7 +31,7 @@ mockall = "0.12.1"
 num-bigint = { version = "^0.4.3", features = ["serde"] }
 num_cpus = "1.16.0"
 num-traits = "0.2.18"
-rand = "0.6.1"
+rand = "0.8.3"
 semver = "1.0.22"
 serde = { version = "1.0.125", features = ["rc"] }
 serde_derive = "1.0.125"
