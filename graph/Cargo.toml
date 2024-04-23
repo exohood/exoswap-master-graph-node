@@ -9,7 +9,7 @@ async-trait = "0.1.50"
 atomic_refcell = "0.1.13"
 bigdecimal = { version = "0.4.3", features = ["serde"] }
 bytes = "1.0"
-diesel = { version = "2.1.5", features = ["postgres", "serde_json", "numeric", "r2d2", "chrono"] }
+diesel = { version = "2.1.6", features = ["postgres", "serde_json", "numeric", "r2d2", "chrono"] }
 diesel_derives = "2.1"
 chrono = "0.4.38"
 Inflector = "0.11.3"
