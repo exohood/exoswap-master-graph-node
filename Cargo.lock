@@ -1758,7 +1758,7 @@ dependencies = [
  "num-bigint",
  "num-traits",
  "num_cpus",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.2",
  "petgraph 0.6.4",
  "priority-queue",
  "prometheus",
@@ -1860,7 +1860,7 @@ dependencies = [
  "indexmap 2.2.6",
  "lazy_static",
  "once_cell",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.2",
  "pretty_assertions",
  "stable-hash",
  "test-store",
@@ -3191,9 +3191,9 @@ dependencies = [
 
 [[package]]
 name = "parking_lot"
-version = "0.12.1"
+version = "0.12.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3742b2c103b9f06bc9fff0a37ff4912935851bee6d36f3c02bcc755bcfec228f"
+checksum = "7e4af0ca4f6caed20e900d564c242b8e5d4903fdacf31d3daf527b66fe6f42fb"
 dependencies = [
  "lock_api 0.4.7",
  "parking_lot_core 0.9.3",
@@ -3570,7 +3570,7 @@ dependencies = [
  "fnv",
  "lazy_static",
  "memchr",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.2",
  "protobuf",
  "thiserror",
 ]
