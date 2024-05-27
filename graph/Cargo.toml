@@ -55,7 +55,7 @@ priority-queue = "2.0.2"
 futures03 = { version = "0.3.1", package = "futures", features = ["compat"] }
 wasmparser = "0.118.2"
 thiserror = "1.0.24"
-parking_lot = "0.12.2"
+parking_lot = "0.12.3"
 
 # Our fork contains a small but hacky patch.
 web3 = { git = "https://github.com/graphprotocol/rust-web3", branch = "master" }
