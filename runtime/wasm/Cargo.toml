@@ -17,7 +17,7 @@ semver = "1.0.23"
 lazy_static = "1.4"
 uuid = { version = "1.8.0", features = ["v4"] }
 strum = "0.26.2"
-strum_macros = "0.26.3"
+strum_macros = "0.26.4"
 anyhow = "1.0"
 wasmtime = "0.28.0"
 defer = "0.2"
