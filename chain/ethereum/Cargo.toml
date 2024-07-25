@@ -19,7 +19,7 @@ fail = "0.5"
 
 [dev-dependencies]
 diesel = { version = "2.2.2", features = ["postgres", "serde_json", "numeric", "r2d2"] }
-mockall = "0.12.1"
+mockall = "0.13.0"
 graph-core = { path = "../../core" }
 graph-store-postgres = { path = "../../store/postgres" }
 pretty_assertions = "1.4.0"
