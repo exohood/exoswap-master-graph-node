@@ -31,7 +31,7 @@ stable-hash = { git = "https://github.com/graphprotocol/stable-hash" }
 backtrace = "0.3"
 
 [dev-dependencies]
-clap = "4.5.18"
+clap = "4.5.19"
 graphql-parser = "0.3"
 hex = "0.4.3"
 test-store = { path = "../test-store" }
