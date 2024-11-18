@@ -383,7 +383,7 @@ dependencies = [
  "serde_json",
  "serde_repr",
  "serde_urlencoded",
- "thiserror",
+ "thiserror 1.0.69",
  "tokio 1.19.2",
  "tokio-util 0.7.3",
  "url 2.5.2",
@@ -745,7 +745,7 @@ dependencies = [
  "log 0.4.11",
  "serde",
  "smallvec 1.6.1",
- "thiserror",
+ "thiserror 1.0.69",
  "wasmparser 0.78.2",
 ]
 
@@ -1824,7 +1824,7 @@ dependencies = [
  "strum",
  "strum_macros",
  "test-store",
- "thiserror",
+ "thiserror 2.0.3",
  "tiny-keccak 2.0.2",
  "tokio 0.2.25",
  "tokio-retry",
@@ -2113,7 +2113,7 @@ version = "0.3.0"
 source = "git+https://github.com/graphql-rust/graphql-parser#45167b53e9533c331298683577ba8df7e43480ac"
 dependencies = [
  "combine",
- "thiserror",
+ "thiserror 1.0.69",
 ]
 
 [[package]]
@@ -3623,7 +3623,7 @@ dependencies = [
  "memchr",
  "parking_lot 0.12.3",
  "protobuf",
- "thiserror",
+ "thiserror 1.0.69",
 ]
 
 [[package]]
@@ -3963,7 +3963,7 @@ checksum = "b033d837a7cf162d7993aded9304e30a83213c648b6e389db233191f891e5c2b"
 dependencies = [
  "getrandom 0.2.2",
  "redox_syscall 0.2.13",
- "thiserror",
+ "thiserror 1.0.69",
 ]
 
 [[package]]
@@ -4791,22 +4791,42 @@ dependencies = [
 
 [[package]]
 name = "thiserror"
-version = "1.0.65"
+version = "1.0.69"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5d11abd9594d9b38965ef50805c5e469ca9cc6f197f883f717e0269a3057b3d5"
+checksum = "b6aaf5339b578ea85b50e080feb250a3e8ae8cfcdff9a461c9ec2904bc923f52"
 dependencies = [
- "thiserror-impl",
+ "thiserror-impl 1.0.69",
+]
+
+[[package]]
+name = "thiserror"
+version = "2.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c006c85c7651b3cf2ada4584faa36773bd07bac24acfb39f3c431b36d7e667aa"
+dependencies = [
+ "thiserror-impl 2.0.3",
 ]
 
 [[package]]
 name = "thiserror-impl"
-version = "1.0.65"
+version = "1.0.69"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ae71770322cbd277e69d762a16c444af02aa0575ac0d174f0b9562d3b37f8602"
+checksum = "4fee6c4efc90059e10f81e6d42c60a18f76588c3d74cb83a0b242a2b6c7504c1"
 dependencies = [
  "proc-macro2 1.0.84",
  "quote 1.0.37",
- "syn 2.0.85",
+ "syn 2.0.87",
+]
+
+[[package]]
+name = "thiserror-impl"
+version = "2.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f077553d607adc1caf65430528a576c757a71ed73944b66ebb58ef2bbd243568"
+dependencies = [
+ "proc-macro2 1.0.84",
+ "quote 1.0.37",
+ "syn 2.0.87",
 ]
 
 [[package]]
@@ -5805,7 +5825,7 @@ dependencies = [
  "more-asserts",
  "object 0.25.3",
  "target-lexicon",
- "thiserror",
+ "thiserror 1.0.69",
  "wasmparser 0.78.2",
  "wasmtime-environ",
 ]
@@ -5825,7 +5845,7 @@ dependencies = [
  "log 0.4.11",
  "more-asserts",
  "serde",
- "thiserror",
+ "thiserror 1.0.69",
  "wasmparser 0.78.2",
 ]
 
@@ -5862,7 +5882,7 @@ dependencies = [
  "region",
  "serde",
  "target-lexicon",
- "thiserror",
+ "thiserror 1.0.69",
  "wasmparser 0.78.2",
  "wasmtime-cranelift",
  "wasmtime-debug",
@@ -5925,7 +5945,7 @@ dependencies = [
  "more-asserts",
  "rand 0.8.3",
  "region",
- "thiserror",
+ "thiserror 1.0.69",
  "wasmtime-environ",
  "wasmtime-fiber",
  "winapi 0.3.9",
