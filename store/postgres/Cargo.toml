@@ -26,7 +26,7 @@ maybe-owned = "0.3.4"
 postgres = "0.19.1"
 rand = "0.8.3"
 serde = "1.0"
-uuid = { version = "1.11.1", features = ["v4"] }
+uuid = { version = "1.12.0", features = ["v4"] }
 stable-hash = { git = "https://github.com/graphprotocol/stable-hash" }
 backtrace = "0.3"
 
