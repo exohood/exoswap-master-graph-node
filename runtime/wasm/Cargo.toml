@@ -16,7 +16,7 @@ graph-runtime-derive = { path = "../derive" }
 semver = "1.0.25"
 lazy_static = "1.5"
 uuid = { version = "1.13.1", features = ["v4"] }
-strum = "0.26.3"
+strum = "0.27.0"
 strum_macros = "0.27.0"
 anyhow = "1.0"
 wasmtime = "0.28.0"
