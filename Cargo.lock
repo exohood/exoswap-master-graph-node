@@ -1029,18 +1029,18 @@ dependencies = [
 
 [[package]]
 name = "derive_more"
-version = "1.0.0"
+version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4a9b99b9cbbe49445b21764dc0625032a89b145a2642e67603e1c936f5458d05"
+checksum = "093242cf7570c207c83073cf82f79706fe7b8317e98620a47d5be7c3d8497678"
 dependencies = [
  "derive_more-impl",
 ]
 
 [[package]]
 name = "derive_more-impl"
-version = "1.0.0"
+version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cb7330aeadfbe296029522e6c40f315320aba36fc43a5b3632f3795348f3bd22"
+checksum = "bda628edc44c4bb645fbe0f758797143e4e07926f7ebf4e9bdfbd3d2ce621df3"
 dependencies = [
  "proc-macro2 1.0.92",
  "quote 1.0.38",
@@ -2082,7 +2082,7 @@ dependencies = [
  "backtrace",
  "blake3",
  "clap 4.5.27",
- "derive_more 1.0.0",
+ "derive_more 2.0.1",
  "diesel 2.2.7",
  "diesel-derive-enum",
  "diesel-dynamic-schema",
@@ -6422,7 +6422,7 @@ checksum = "fa4f8080344d4671fb4e831a13ad1e68092748387dfc4f55e356242fae12ce3e"
 dependencies = [
  "proc-macro2 1.0.92",
  "quote 1.0.38",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -6433,7 +6433,7 @@ checksum = "d3931cb58c62c13adec22e38686b559c86a30565e16ad6e8510a337cedc611e1"
 dependencies = [
  "proc-macro2 1.0.92",
  "quote 1.0.38",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
