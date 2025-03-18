@@ -51,7 +51,7 @@ tokio-stream = { version = "0.1.17", features = ["sync"] }
 tokio-retry = { git = "https://github.com/graphprotocol/rust-tokio-retry", branch = "update-to-tokio-02" }
 url = "2.5.2"
 prometheus = "0.13.4"
-priority-queue = "2.1.2"
+priority-queue = "2.2.2"
 futures03 = { version = "0.3.1", package = "futures", features = ["compat"] }
 wasmparser = "0.118.2"
 thiserror = "2.0.12"
