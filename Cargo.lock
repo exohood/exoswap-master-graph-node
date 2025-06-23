@@ -1087,7 +1087,7 @@ dependencies = [
  "bitflags 2.4.0",
  "byteorder",
  "chrono",
- "diesel_derives 2.2.5",
+ "diesel_derives 2.2.6",
  "itoa 1.0.2",
  "num-bigint",
  "num-integer",
@@ -1130,9 +1130,9 @@ dependencies = [
 
 [[package]]
 name = "diesel_derives"
-version = "2.2.5"
+version = "2.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "68d4216021b3ea446fd2047f5c8f8fe6e98af34508a254a01e4d6bc1e844f84d"
+checksum = "52841e97814f407b895d836fa0012091dff79c6268f39ad8155d384c21ae0d26"
 dependencies = [
  "diesel_table_macro_syntax",
  "dsl_auto_type",
@@ -1815,7 +1815,7 @@ dependencies = [
  "bytes 1.6.0",
  "chrono",
  "diesel 2.2.10",
- "diesel_derives 2.2.5",
+ "diesel_derives 2.2.6",
  "ethabi 12.0.0-graph",
  "futures 0.3.13",
  "graphql-parser",
