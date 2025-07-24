@@ -1079,9 +1079,9 @@ dependencies = [
 
 [[package]]
 name = "diesel"
-version = "2.2.11"
+version = "2.2.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a917a9209950404d5be011c81d081a2692a822f73c3d6af586f0cab5ff50f614"
+checksum = "229850a212cd9b84d4f0290ad9d294afc0ae70fccaa8949dbe8b43ffafa1e20c"
 dependencies = [
  "bigdecimal",
  "bitflags 2.4.0",
@@ -1147,7 +1147,7 @@ version = "2.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8a73ce704bad4231f001bff3314d91dce4aba0770cee8b233991859abc15c1f6"
 dependencies = [
- "diesel 2.2.11",
+ "diesel 2.2.12",
  "migrations_internals",
  "migrations_macros",
 ]
@@ -1814,7 +1814,7 @@ dependencies = [
  "bigdecimal",
  "bytes 1.6.0",
  "chrono",
- "diesel 2.2.11",
+ "diesel 2.2.12",
  "diesel_derives 2.2.7",
  "ethabi 12.0.0-graph",
  "futures 0.3.13",
@@ -1873,7 +1873,7 @@ dependencies = [
  "anyhow",
  "chrono",
  "config",
- "diesel 2.2.11",
+ "diesel 2.2.12",
  "dirs-next",
  "fail",
  "futures 0.3.13",
@@ -1955,7 +1955,7 @@ dependencies = [
  "assert_cli",
  "clap 4.5.41",
  "crossbeam-channel 0.5.15",
- "diesel 2.2.11",
+ "diesel 2.2.12",
  "env_logger 0.10.2",
  "fail",
  "futures 0.3.13",
@@ -2095,7 +2095,7 @@ dependencies = [
  "blake3",
  "clap 4.5.41",
  "derive_more 2.0.1",
- "diesel 2.2.11",
+ "diesel 2.2.12",
  "diesel-derive-enum",
  "diesel-dynamic-schema",
  "diesel_migrations",
@@ -4844,7 +4844,7 @@ dependencies = [
 name = "test-store"
 version = "0.22.0"
 dependencies = [
- "diesel 2.2.11",
+ "diesel 2.2.12",
  "graph",
  "graph-graphql",
  "graph-mock",
