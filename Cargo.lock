@@ -525,18 +525,18 @@ dependencies = [
 
 [[package]]
 name = "clap"
-version = "4.5.40"
+version = "4.5.41"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "40b6887a1d8685cebccf115538db5c0efe625ccac9696ad45c409d96566e910f"
+checksum = "be92d32e80243a54711e5d7ce823c35c41c9d929dc4ab58e1276f625841aadf9"
 dependencies = [
  "clap_builder",
 ]
 
 [[package]]
 name = "clap_builder"
-version = "4.5.40"
+version = "4.5.41"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e0c66c08ce9f0c698cbce5c0279d0bb6ac936d8674174fe48f736533b964f59e"
+checksum = "707eab41e9622f9139419d573eca0900137718000c517d47da73045f54331c3d"
 dependencies = [
  "anstream",
  "anstyle",
@@ -1953,7 +1953,7 @@ name = "graph-node"
 version = "0.22.0"
 dependencies = [
  "assert_cli",
- "clap 4.5.40",
+ "clap 4.5.41",
  "crossbeam-channel 0.5.15",
  "diesel 2.2.11",
  "env_logger 0.10.2",
@@ -2093,7 +2093,7 @@ dependencies = [
  "async-trait",
  "backtrace",
  "blake3",
- "clap 4.5.40",
+ "clap 4.5.41",
  "derive_more 2.0.1",
  "diesel 2.2.11",
  "diesel-derive-enum",
