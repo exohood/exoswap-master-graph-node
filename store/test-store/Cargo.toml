@@ -13,5 +13,5 @@ graph-node = { path = "../../node" }
 graph = { path = "../../graph" }
 graph-store-postgres = { path = "../postgres" }
 lazy_static = "1.5"
-hex-literal = "1.0"
+hex-literal = "1.1"
 diesel = { version = "2.2.12", features = ["postgres", "serde_json", "numeric", "r2d2"] }
