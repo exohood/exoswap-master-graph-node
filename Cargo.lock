@@ -2039,7 +2039,7 @@ dependencies = [
  "graph-mock",
  "graphql-parser",
  "http 1.4.0",
- "hyper 1.8.1",
+ "hyper 1.9.0",
  "serde",
 ]
 
@@ -2052,7 +2052,7 @@ dependencies = [
  "graph-graphql",
  "graphql-parser",
  "http 1.4.0",
- "hyper 1.8.1",
+ "hyper 1.9.0",
  "serde",
 ]
 
@@ -2073,7 +2073,7 @@ dependencies = [
  "futures 0.3.13",
  "graph",
  "http 1.4.0",
- "hyper 1.8.1",
+ "hyper 1.9.0",
  "lazy_static",
  "serde",
 ]
@@ -2437,9 +2437,9 @@ dependencies = [
 
 [[package]]
 name = "hyper"
-version = "1.8.1"
+version = "1.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2ab2d4f250c3d7b1c9fcdff1cece94ea4e2dfbec68614f7b87cb205f24ca9d11"
+checksum = "6299f016b246a94207e63da54dbe807655bf9e00044f73ded42c3ac5305fbcca"
 dependencies = [
  "bytes 1.6.0",
  "http 1.4.0",
