@@ -2059,7 +2059,7 @@ name = "graph-runtime-derive"
 version = "0.22.0"
 dependencies = [
  "quote 1.0.46",
- "syn 3.0.3",
+ "syn 3.0.4",
 ]
 
 [[package]]
@@ -2101,7 +2101,7 @@ dependencies = [
  "graph-mock",
  "graphql-parser",
  "http 1.4.2",
- "hyper 1.11.0",
+ "hyper 1.11.1",
  "serde",
 ]
 
@@ -2114,7 +2114,7 @@ dependencies = [
  "graph-graphql",
  "graphql-parser",
  "http 1.4.2",
- "hyper 1.11.0",
+ "hyper 1.11.1",
  "serde",
 ]
 
@@ -2135,7 +2135,7 @@ dependencies = [
  "futures 0.3.13",
  "graph",
  "http 1.4.2",
- "hyper 1.11.0",
+ "hyper 1.11.1",
  "lazy_static",
  "serde",
 ]
@@ -2493,9 +2493,9 @@ dependencies = [
 
 [[package]]
 name = "hyper"
-version = "1.11.0"
+version = "1.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d22053281f852e11534f5198498373cbb59295120a20771d90f7ed1897490a72"
+checksum = "27b501faa50e7a26c3d3560ca625132f4078a17771f4810baf70475ae48cbe43"
 dependencies = [
  "bytes 1.6.0",
  "http 1.4.2",
@@ -4823,17 +4823,6 @@ name = "syn"
 version = "2.0.119"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "872831b642d1a07999a962a351ed35b955ea2cfc8f3862091e2a240a84f17297"
-dependencies = [
- "proc-macro2 1.0.92",
- "quote 1.0.46",
- "unicode-ident",
-]
-
-[[package]]
-name = "syn"
-version = "3.0.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "53e9bae58849f64dfa4f5d5ae372c8341f7305f82a3868709269343628b659a3"
 dependencies = [
  "proc-macro2 1.0.92",
  "quote 1.0.46",
