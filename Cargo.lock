@@ -1891,7 +1891,7 @@ dependencies = [
  "futures 0.3.13",
  "graphql-parser",
  "hex",
- "http 1.4.2",
+ "http 1.5.0",
  "isatty",
  "lazy_static",
  "maplit",
@@ -1951,7 +1951,7 @@ dependencies = [
  "graph",
  "graph-core",
  "graph-store-postgres",
- "http 1.4.2",
+ "http 1.5.0",
  "jsonrpc-core 18.0.0",
  "lazy_static",
  "mockall",
@@ -2100,7 +2100,7 @@ dependencies = [
  "graph-graphql",
  "graph-mock",
  "graphql-parser",
- "http 1.4.2",
+ "http 1.5.0",
  "hyper 1.11.1",
  "serde",
 ]
@@ -2113,7 +2113,7 @@ dependencies = [
  "graph",
  "graph-graphql",
  "graphql-parser",
- "http 1.4.2",
+ "http 1.5.0",
  "hyper 1.11.1",
  "serde",
 ]
@@ -2134,7 +2134,7 @@ version = "0.22.0"
 dependencies = [
  "futures 0.3.13",
  "graph",
- "http 1.4.2",
+ "http 1.5.0",
  "hyper 1.11.1",
  "lazy_static",
  "serde",
@@ -2351,9 +2351,9 @@ dependencies = [
 
 [[package]]
 name = "http"
-version = "1.4.2"
+version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6970f50e31d6fc17d3fa27329444bfa74e196cf62e95052a3f6fee181dba6425"
+checksum = "918d3568bebf352712bc2ef3d46a8bcf1a75b373be6539de198e9105cbbf9ce0"
 dependencies = [
  "bytes 1.6.0",
  "itoa 1.0.2",
@@ -2388,7 +2388,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1cac85db508abc24a2e48553ba12a996e87244a0395ce011e62b37158745d643"
 dependencies = [
  "bytes 1.6.0",
- "http 1.4.2",
+ "http 1.5.0",
 ]
 
 [[package]]
@@ -2498,7 +2498,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "27b501faa50e7a26c3d3560ca625132f4078a17771f4810baf70475ae48cbe43"
 dependencies = [
  "bytes 1.6.0",
- "http 1.4.2",
+ "http 1.5.0",
  "http-body 1.0.0",
  "tokio 1.53.1",
 ]
