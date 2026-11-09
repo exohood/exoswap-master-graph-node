@@ -1902,7 +1902,7 @@ dependencies = [
  "petgraph 0.8.3",
  "priority-queue",
  "prometheus",
- "rand 0.10.2",
+ "rand 0.10.3",
  "reqwest",
  "semver 1.0.28",
  "serde",
@@ -2015,7 +2015,7 @@ dependencies = [
  "graph-graphql",
  "graphql-parser",
  "mockall",
- "rand 0.10.2",
+ "rand 0.10.3",
 ]
 
 [[package]]
@@ -2182,7 +2182,7 @@ dependencies = [
  "lru_time_cache",
  "maybe-owned",
  "postgres",
- "rand 0.10.2",
+ "rand 0.10.3",
  "serde",
  "stable-hash",
  "test-store",
@@ -3851,9 +3851,9 @@ dependencies = [
 
 [[package]]
 name = "rand"
-version = "0.10.2"
+version = "0.10.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c7f5fa3a058cd35567ef9bfa5e75732bee0f9e4c55fa90477bef2dfcdbc4be80"
+checksum = "65c9fb96cbc91e3478eaae79a69fcd3f1ae4ad052e471fe6732fff548984b4af"
 dependencies = [
  "chacha20",
  "getrandom 0.4.3",
@@ -4968,7 +4968,7 @@ checksum = "fe5197923287db20a58125f0bc85c062f7f2c892de97b18c356f9efb14b28524"
 dependencies = [
  "proc-macro2 1.0.92",
  "quote 1.0.47",
- "syn 3.0.4",
+ "syn 3.0.9",
 ]
 
 [[package]]
